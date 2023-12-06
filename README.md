@@ -1,3 +1,7 @@
+Here's the screenshot of the application
+
+![Alt text](screencapture-localhost-3000-2023-12-07-01_52_29.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
