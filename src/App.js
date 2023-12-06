@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Collections from './components/Collections';
+import Colours from './components/Colours';
+import Featured from './components/Featured';
+import Rooms from './components/Rooms';
+import Styles from './components/Styles';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='px-[20px] my-20'>
+      <h2 className='main_heading'>Shop Wallpapers</h2>
+      <div className='filter_container'>
+        <Collections />
+        <Styles />
+        <Colours />
+        <Rooms />
+        <Featured />
+      </div>
     </div>
   );
 }
